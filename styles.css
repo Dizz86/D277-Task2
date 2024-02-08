@@ -1,0 +1,167 @@
+body {
+   font-family: Helvetica, sans-serif;
+   background: linear-gradient(to right, black, blue, green);
+   color: white;
+}
+
+header {   
+   display: flex;
+   color: white;
+   padding: none;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.logo {
+   position: absolute;
+   height: 100px;
+   border-radius: 3px;
+   z-index: 2;
+}
+
+.text-overlay {
+   position: absolute;
+   z-index: 2;
+   text-align: center !important;
+   justify-content: center !important;
+   width: 100%;
+   font-size: 25px;
+   text-shadow: 5px 5px 10px black;
+}
+
+.banner {
+   width: 100%;
+   border-radius: 15px;
+   z-index: 1;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   color: white !important;
+   text-align: center;
+   line-height: 50px;
+   padding: 20px;
+   border-top: 5px solid white;
+   border-bottom: 5px solid white;
+}
+
+nav ul {
+   display: flex;
+   color: white !important;
+   gap: 100px;
+}
+
+nav ul li {
+   display: inline-block;
+   color: white !important;
+   font-size: 20px;
+   padding: 20px;
+   text-shadow: 3px 3px 10px black;
+   font-weight: bold;
+}
+
+nav ul li a {
+   text-decoration: none;
+}
+
+a {
+   color: white !important;
+}
+
+a:active {
+   color: white !important;
+}
+
+a:visited {
+   color: white !important;
+}
+
+a:hover {
+   color: yellow !important;
+}
+
+.middle {
+   width: 100%;
+   margin: none;
+   border-radius: 15px;
+}
+
+section {
+   width: 65%;
+   float: left;
+   padding: 20px;
+   overflow-y: auto;
+   box-sizing: border-box;
+   border-right: 5px solid white;
+}
+
+th {
+   text-decoration: none;
+}
+
+#table {
+   position: relative;
+   margin: 0px auto;
+   border: 2px solid white;
+   border-collapse: collapse;
+}
+
+td {
+   border: 1px solid white;
+}
+
+section a {
+   font-style: italic;
+}
+
+aside {
+   width: 25%;
+   padding: 20px;
+   text-align: center;
+   overflow-y: auto;
+   box-sizing: border-box;
+}
+
+.aside_pic {
+   width: 50%;
+   border-radius: 15px;
+}
+
+aside ol li {
+   text-align: left;
+}
+
+aside ol li a {
+   text-decoration: none;
+   font-style: italic;
+}
+
+aside div img {
+   width: 30%;
+   border-radius: 15px;
+}
+
+.explore {
+   font-weight: bold;
+   font-style: italic;
+   color: yellow;
+}   
+
+footer {
+   clear: both;
+   text-align: center;
+   padding: none;
+   margin-top: 20px;
+   color: white !important;
+}
+
+footer nav ul li {
+   display: inline-block;
+   color: white !important;
+   padding: 20px;
+}
+
+#contactForm {
+   text-align: center;
+}
